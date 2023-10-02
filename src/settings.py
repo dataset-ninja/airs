@@ -25,7 +25,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.UrbanPlanning(
 CATEGORY: Category = Category.Surveillance(extra=Category.Aerial())
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
-ANNOTATION_TYPES: List[AnnotationType] = AnnotationType.SemanticSegmentation()
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
