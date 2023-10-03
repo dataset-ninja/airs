@@ -9,7 +9,7 @@ roof labels for validation.
 
 ![Fig_splits](https://i.ibb.co/6B1Y0Y3/Screenshot-2023-10-03-115417.png)
 
-<i> Geographical distribution of images in: (a) train set, (b) val set, and (c) test set of AIRS dataset.</i>
+<i> Geographical distribution of images in: a - train set, b - val set, and c - test set of AIRS dataset.</i>
 
 ![Fig](https://i.ibb.co/RBDgPCL/Screenshot-2023-10-02-190852.png)
 
