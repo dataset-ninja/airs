@@ -21,7 +21,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Unknown()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.UrbanPlanning(is_used=False),Industry.Environmental()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.UrbanPlanning(),Industry.Environmental(is_used=False)]
 CATEGORY: Category = Category.Surveillance(extra=Category.Aerial())
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
@@ -51,7 +51,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.sciencedirect.com/science/article/pii/S0924271618303083"]
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.researchgate.net/publication/326621842_Aerial_Imagery_for_Roof_Segmentation_A_Large-Scale_Dataset_towards_Automatic_Mapping_of_Buildings"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
