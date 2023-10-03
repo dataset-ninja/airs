@@ -1,4 +1,4 @@
-**AIRS: Aerial Imagery for Roof Segmentation** is a dataset for a semantic segmentation task. It is used in the environmental industry. Possible applications of the dataset could be in the urban planning industry. 
+**AIRS: Aerial Imagery for Roof Segmentation** is a dataset for a semantic segmentation task. It is used in the urban planning industry. Possible applications of the dataset could be in the environmental industry. 
 
 The dataset consists of 1046 images with 880 labeled objects belonging to 1 single class (*roof*).
 
