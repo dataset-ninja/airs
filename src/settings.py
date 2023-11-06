@@ -21,7 +21,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Unknown()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.UrbanPlanning(),Industry.Environmental(is_used=False)]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.UrbanPlanning(), Industry.Environmental(is_used=False)]
 CATEGORY: Category = Category.Surveillance(extra=Category.Aerial())
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/airs"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/atilol/aerialimageryforroofsegmentation"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -64,6 +64,8 @@ AUTHORS: Optional[List[str]] = [
     "Zhiling Guoc",
     "Steven L. Waslander",
     ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["lei.wang@uwaterloo.ca"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "China University of Geosciences (Wuhan)",
@@ -128,6 +130,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
